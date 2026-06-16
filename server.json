@@ -1,0 +1,30 @@
+{
+  "name": "io.github.pulse-digital-dev/mcp-ai-visibility-index",
+  "version": "1.0.0",
+  "title": "AI Visibility Index",
+  "description": "Access AI visibility rankings for 104 Japanese EC companies across ChatGPT, Claude, Gemini, and Perplexity. Monthly benchmark data via MCP.",
+  "repository": {
+    "url": "https://github.com/pulse-digital-dev/mcp-ai-visibility-index"
+  },
+  "websiteUrl": "https://ai-visibility-index.dev/",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://ai-visibility-index.dev/mcp"
+    }
+  ],
+  "tools": [
+    {
+      "name": "check_ai_visibility",
+      "description": "Check AI visibility score for a specific domain"
+    },
+    {
+      "name": "list_ai_visibility_industries",
+      "description": "List AI visibility summaries for all 9 industries"
+    },
+    {
+      "name": "get_ai_visibility_methodology",
+      "description": "Get the scoring methodology documentation"
+    }
+  ]
+}
